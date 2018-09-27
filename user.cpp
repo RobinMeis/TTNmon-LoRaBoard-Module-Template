@@ -16,6 +16,6 @@ void user_downlink(int FPort, int dataBeg, int length, uint8_t *payload) { //Hey
 
 }
 
-void user_sleep(int minutes) { //Do your own stuff to put controller into sleep if you want.
+bool user_sleep(int minutes) { //Do your own stuff to put controller into sleep if you want.
   return false;
 }
